@@ -62,10 +62,8 @@ function App() {
         return {word, category}
     },[words])
 
-    // @ts-ignore
     const startGame = useCallback(() => {
         //escolher categoria e palavra
-        // @ts-ignore
         const {word, category} = pickWordAndCategory()
 
         //Limpa todos os dados sempre que um jogo novo iniciar.
